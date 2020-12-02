@@ -4,7 +4,7 @@
 
 body {
     background-color: #34495e;
-    color: white;
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -49,6 +49,7 @@ h1 {
 .wrong-letters-container p {
     margin: 0 0 5px;
 }
+
 .wrong-letters-container span {
     font-size: 24px;
 }
@@ -63,7 +64,6 @@ h1 {
 
 .letter {
     border-bottom: 3px solid #2980b9;
-
     display: inline-flex;
     font-size: 30px;
     align-items: center;
@@ -93,6 +93,7 @@ h1 {
     padding: 20px;
     text-align: center;
 }
+
 .popup button {
     cursor: pointer;
     background-color: #fff;
@@ -117,7 +118,7 @@ h1 {
     padding: 15px 20px;
     position: absolute;
     bottom: -50px;
-    transition: tranform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .notification-container p {
